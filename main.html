@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header role="banner">
+    <h1 role="heading" aria-level="1">My Portfolio</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="#about">About</a></li>
+        <li role="listitem"><a href="#projects">Projects</a></li>
+        <li role="listitem"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main role="main">
+    <section id="about">
+      <h2 role="heading" aria-level="2">About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>I am a passionate web developer with a focus on accessibility and user experience.</p>
+    </section>
+
+    <section id="projects">
+      <h2 role="heading" aria-level="2">My Projects</h2>
+      <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 role="heading" aria-level="2">Contact Me</h2>
+      <p>You can reach out to me via email at example@example.com.</p>
+    </section>
+  </main>
 </body>
-
 </html>
